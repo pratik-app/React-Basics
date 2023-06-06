@@ -14,10 +14,20 @@ class learning extends Component{
         console.log('Click Me is pressed')
         alert("Click Me is Pressed!")
     }
+    textChanger = ()=>{
+        this.setState({
+            fruits:[
+                {name:'banana',weight:'100gm'},
+                {name:'giantBanana',weight:'150gm'},
+                {name:'newBanana',weight:'110gm'},
+            ]
+        })
+    }
     render(){
         return( 
         <div>
-            <button onClick= {this.clickHandler}>Click Me</button>
+            <button onClick= {this.clickHandler}>Click Me</button> | &nbsp;
+            <button onClick= {this.textChanger}>Change Texts</button>
         <h1> Fruit used is {this.state.fruits[0].name}</h1>
         <h1> Fruit used is {this.state.fruits[1].name}</h1>
         <h1> Fruit used is {this.state.fruits[2].name}</h1>
