@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Hello from './components/hello';
 import LComp from './components/learning';
+import Hook from './components/Hook';
 function App() {
   return (
     <div className="App">
@@ -12,6 +13,8 @@ function App() {
         <Hello name= "Second Prop"/>
         <Hello name= "Third Prop"/>
         <LComp />
+        <h1>This is learning UseState Hook</h1>
+        <Hook/>
         
       </header>
     </div>
