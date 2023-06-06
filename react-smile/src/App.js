@@ -8,8 +8,11 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1> Hello Pratik!</h1>
-        <Hello/>
-        <LComp/>
+        <Hello name= "First Prop"/>
+        <Hello name= "Second Prop"/>
+        <Hello name= "Third Prop"/>
+        <LComp />
+        
       </header>
     </div>
   );
