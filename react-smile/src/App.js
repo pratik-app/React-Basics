@@ -4,6 +4,7 @@ import './App.css';
 import Hello from './components/hello';
 import LComp from './components/learning';
 import Hook from './components/Hook';
+import Check from './components/check';
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
         <LComp />
         <h1>This is learning UseState Hook</h1>
         <Hook/>
+        <Check/>
         
       </header>
     </div>
